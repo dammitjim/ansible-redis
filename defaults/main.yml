@@ -11,6 +11,8 @@ redis_verify_checksum: false
 redis_tarball: false
 # Set this to true to build 32-bit binaries of Redis
 redis_make_32bit: false
+# Additional args to pass to make
+redis_make_args: ''
 
 redis_user: redis
 redis_group: "{{ redis_user }}"
